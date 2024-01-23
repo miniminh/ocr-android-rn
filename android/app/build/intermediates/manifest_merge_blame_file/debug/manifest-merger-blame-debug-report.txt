@@ -1,0 +1,207 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.reactnativemlkitocr"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\debug\AndroidManifest.xml:5:3-75
+11-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\debug\AndroidManifest.xml:5:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\main\AndroidManifest.xml:4:3-65
+12-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\main\AndroidManifest.xml:4:20-62
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\phann\.gradle\caches\transforms-3\64d881118a9be1f95c5aa95699bd95dd\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\phann\.gradle\caches\transforms-3\64d881118a9be1f95c5aa95699bd95dd\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+14
+15    <meta-data
+15-->[:react-native-mlkit-ocr] D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\node_modules\react-native-mlkit-ocr\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-11:31
+16        android:name="com.google.mlkit.vision.DEPENDENCIES"
+16-->[:react-native-mlkit-ocr] D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\node_modules\react-native-mlkit-ocr\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-60
+17        android:value="ocr" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+17-->[:react-native-mlkit-ocr] D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\node_modules\react-native-mlkit-ocr\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-28
+18    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\phann\.gradle\caches\transforms-3\fd22cab9b0466208637706a50d0d947d\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+19-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\phann\.gradle\caches\transforms-3\fd22cab9b0466208637706a50d0d947d\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+20
+21    <application
+21-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\main\AndroidManifest.xml:6:3-24:17
+22        android:name="com.example.reactnativemlkitocr.MainApplication"
+22-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\main\AndroidManifest.xml:7:5-36
+23        android:allowBackup="false"
+23-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\main\AndroidManifest.xml:11:5-32
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.7.0] C:\Users\phann\.gradle\caches\transforms-3\ca8080c7321f6e053cb46ebb7082fd01\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\main\AndroidManifest.xml:9:5-39
+27        android:label="@string/app_name"
+27-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\main\AndroidManifest.xml:8:5-37
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\main\AndroidManifest.xml:10:5-50
+29        android:theme="@style/AppTheme"
+29-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\main\AndroidManifest.xml:12:5-36
+30        android:usesCleartextTraffic="true" >
+30-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\debug\AndroidManifest.xml:8:5-40
+31        <activity
+31-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\debug\AndroidManifest.xml:11:5-107
+32            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+32-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\debug\AndroidManifest.xml:11:15-79
+33            android:exported="false" />
+33-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\debug\AndroidManifest.xml:11:80-104
+34        <activity
+34-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\main\AndroidManifest.xml:13:5-23:16
+35            android:name="com.example.reactnativemlkitocr.MainActivity"
+35-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\main\AndroidManifest.xml:14:7-35
+36            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+36-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\main\AndroidManifest.xml:15:7-116
+37            android:exported="true"
+37-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\main\AndroidManifest.xml:18:7-30
+38            android:launchMode="singleTask"
+38-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\main\AndroidManifest.xml:16:7-38
+39            android:windowSoftInputMode="adjustResize" >
+39-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\main\AndroidManifest.xml:17:7-49
+40            <intent-filter>
+40-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\main\AndroidManifest.xml:19:7-22:23
+41                <action android:name="android.intent.action.MAIN" />
+41-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\main\AndroidManifest.xml:20:9-61
+41-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\main\AndroidManifest.xml:20:17-58
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\main\AndroidManifest.xml:21:9-69
+43-->D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\android\app\src\main\AndroidManifest.xml:21:19-66
+44            </intent-filter>
+45        </activity>
+46
+47        <provider
+47-->[:react-native-image-picker] D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+48            android:name="com.imagepicker.ImagePickerProvider"
+48-->[:react-native-image-picker] D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
+49            android:authorities="com.example.reactnativemlkitocr.imagepickerprovider"
+49-->[:react-native-image-picker] D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-71
+50            android:exported="false"
+50-->[:react-native-image-picker] D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+51            android:grantUriPermissions="true" >
+51-->[:react-native-image-picker] D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+52            <meta-data
+52-->[:react-native-image-picker] D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:70
+53                android:name="android.support.FILE_PROVIDER_PATHS"
+53-->[:react-native-image-picker] D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+54                android:resource="@xml/imagepicker_provider_paths" />
+54-->[:react-native-image-picker] D:\ANHTAI\paddleOCR\react-native-mlkit-ocr\example\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-67
+55        </provider>
+56
+57        <service
+57-->[com.google.android.gms:play-services-mlkit-text-recognition-common:18.0.0] C:\Users\phann\.gradle\caches\transforms-3\686a5470fb6210ee10d4debe7ecbc356\transformed\jetified-play-services-mlkit-text-recognition-common-18.0.0\AndroidManifest.xml:9:9-15:19
+58            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+58-->[com.google.android.gms:play-services-mlkit-text-recognition-common:18.0.0] C:\Users\phann\.gradle\caches\transforms-3\686a5470fb6210ee10d4debe7ecbc356\transformed\jetified-play-services-mlkit-text-recognition-common-18.0.0\AndroidManifest.xml:10:13-91
+59            android:directBootAware="true"
+59-->[com.google.mlkit:common:18.5.0] C:\Users\phann\.gradle\caches\transforms-3\9b17aadfd507fc74c84f5f3189090147\transformed\jetified-common-18.5.0\AndroidManifest.xml:17:13-43
+60            android:exported="false" >
+60-->[com.google.android.gms:play-services-mlkit-text-recognition-common:18.0.0] C:\Users\phann\.gradle\caches\transforms-3\686a5470fb6210ee10d4debe7ecbc356\transformed\jetified-play-services-mlkit-text-recognition-common-18.0.0\AndroidManifest.xml:11:13-37
+61            <meta-data
+61-->[com.google.android.gms:play-services-mlkit-text-recognition-common:18.0.0] C:\Users\phann\.gradle\caches\transforms-3\686a5470fb6210ee10d4debe7ecbc356\transformed\jetified-play-services-mlkit-text-recognition-common-18.0.0\AndroidManifest.xml:12:13-14:85
+62                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+62-->[com.google.android.gms:play-services-mlkit-text-recognition-common:18.0.0] C:\Users\phann\.gradle\caches\transforms-3\686a5470fb6210ee10d4debe7ecbc356\transformed\jetified-play-services-mlkit-text-recognition-common-18.0.0\AndroidManifest.xml:13:17-114
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.android.gms:play-services-mlkit-text-recognition-common:18.0.0] C:\Users\phann\.gradle\caches\transforms-3\686a5470fb6210ee10d4debe7ecbc356\transformed\jetified-play-services-mlkit-text-recognition-common-18.0.0\AndroidManifest.xml:14:17-82
+64            <meta-data
+64-->[com.google.mlkit:vision-common:17.2.1] C:\Users\phann\.gradle\caches\transforms-3\a35773991d00072dabb86f9feb28f6bd\transformed\jetified-vision-common-17.2.1\AndroidManifest.xml:12:13-14:85
+65                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+65-->[com.google.mlkit:vision-common:17.2.1] C:\Users\phann\.gradle\caches\transforms-3\a35773991d00072dabb86f9feb28f6bd\transformed\jetified-vision-common-17.2.1\AndroidManifest.xml:13:17-124
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.mlkit:vision-common:17.2.1] C:\Users\phann\.gradle\caches\transforms-3\a35773991d00072dabb86f9feb28f6bd\transformed\jetified-vision-common-17.2.1\AndroidManifest.xml:14:17-82
+67            <meta-data
+67-->[com.google.mlkit:common:18.5.0] C:\Users\phann\.gradle\caches\transforms-3\9b17aadfd507fc74c84f5f3189090147\transformed\jetified-common-18.5.0\AndroidManifest.xml:20:13-22:85
+68                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+68-->[com.google.mlkit:common:18.5.0] C:\Users\phann\.gradle\caches\transforms-3\9b17aadfd507fc74c84f5f3189090147\transformed\jetified-common-18.5.0\AndroidManifest.xml:21:17-120
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.mlkit:common:18.5.0] C:\Users\phann\.gradle\caches\transforms-3\9b17aadfd507fc74c84f5f3189090147\transformed\jetified-common-18.5.0\AndroidManifest.xml:22:17-82
+70        </service>
+71
+72        <provider
+72-->[com.google.mlkit:common:18.5.0] C:\Users\phann\.gradle\caches\transforms-3\9b17aadfd507fc74c84f5f3189090147\transformed\jetified-common-18.5.0\AndroidManifest.xml:9:9-13:38
+73            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+73-->[com.google.mlkit:common:18.5.0] C:\Users\phann\.gradle\caches\transforms-3\9b17aadfd507fc74c84f5f3189090147\transformed\jetified-common-18.5.0\AndroidManifest.xml:10:13-78
+74            android:authorities="com.example.reactnativemlkitocr.mlkitinitprovider"
+74-->[com.google.mlkit:common:18.5.0] C:\Users\phann\.gradle\caches\transforms-3\9b17aadfd507fc74c84f5f3189090147\transformed\jetified-common-18.5.0\AndroidManifest.xml:11:13-69
+75            android:exported="false"
+75-->[com.google.mlkit:common:18.5.0] C:\Users\phann\.gradle\caches\transforms-3\9b17aadfd507fc74c84f5f3189090147\transformed\jetified-common-18.5.0\AndroidManifest.xml:12:13-37
+76            android:initOrder="99" />
+76-->[com.google.mlkit:common:18.5.0] C:\Users\phann\.gradle\caches\transforms-3\9b17aadfd507fc74c84f5f3189090147\transformed\jetified-common-18.5.0\AndroidManifest.xml:13:13-35
+77
+78        <service
+78-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\phann\.gradle\caches\transforms-3\fd22cab9b0466208637706a50d0d947d\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+79            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+79-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\phann\.gradle\caches\transforms-3\fd22cab9b0466208637706a50d0d947d\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+80            android:exported="false" >
+80-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\phann\.gradle\caches\transforms-3\fd22cab9b0466208637706a50d0d947d\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+81            <meta-data
+81-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\phann\.gradle\caches\transforms-3\fd22cab9b0466208637706a50d0d947d\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+82                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+82-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\phann\.gradle\caches\transforms-3\fd22cab9b0466208637706a50d0d947d\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+83                android:value="cct" />
+83-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\phann\.gradle\caches\transforms-3\fd22cab9b0466208637706a50d0d947d\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+84        </service>
+85        <service
+85-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\phann\.gradle\caches\transforms-3\c224ed5ad0044218faba94424c8c4621\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+86            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+86-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\phann\.gradle\caches\transforms-3\c224ed5ad0044218faba94424c8c4621\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+87            android:exported="false"
+87-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\phann\.gradle\caches\transforms-3\c224ed5ad0044218faba94424c8c4621\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+88            android:permission="android.permission.BIND_JOB_SERVICE" >
+88-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\phann\.gradle\caches\transforms-3\c224ed5ad0044218faba94424c8c4621\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+89        </service>
+90
+91        <receiver
+91-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\phann\.gradle\caches\transforms-3\c224ed5ad0044218faba94424c8c4621\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+92            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+92-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\phann\.gradle\caches\transforms-3\c224ed5ad0044218faba94424c8c4621\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+93            android:exported="false" />
+93-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\phann\.gradle\caches\transforms-3\c224ed5ad0044218faba94424c8c4621\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+94
+95        <activity
+95-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\phann\.gradle\caches\transforms-3\31562c6d16684de5dbc89a6cae73da1a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+96            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+96-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\phann\.gradle\caches\transforms-3\31562c6d16684de5dbc89a6cae73da1a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+97            android:exported="false"
+97-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\phann\.gradle\caches\transforms-3\31562c6d16684de5dbc89a6cae73da1a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+98-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\phann\.gradle\caches\transforms-3\31562c6d16684de5dbc89a6cae73da1a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+99
+100        <meta-data
+100-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\phann\.gradle\caches\transforms-3\f42c9c3b77f6f20a5ceb90f5c8d74922\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+101            android:name="com.google.android.gms.version"
+101-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\phann\.gradle\caches\transforms-3\f42c9c3b77f6f20a5ceb90f5c8d74922\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+102            android:value="@integer/google_play_services_version" />
+102-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\phann\.gradle\caches\transforms-3\f42c9c3b77f6f20a5ceb90f5c8d74922\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+103
+104        <provider
+104-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phann\.gradle\caches\transforms-3\78be0cfb72de43ee1c88a92be53416d7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+105            android:name="androidx.startup.InitializationProvider"
+105-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phann\.gradle\caches\transforms-3\78be0cfb72de43ee1c88a92be53416d7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+106            android:authorities="com.example.reactnativemlkitocr.androidx-startup"
+106-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phann\.gradle\caches\transforms-3\78be0cfb72de43ee1c88a92be53416d7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+107            android:exported="false" >
+107-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phann\.gradle\caches\transforms-3\78be0cfb72de43ee1c88a92be53416d7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+108            <meta-data
+108-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phann\.gradle\caches\transforms-3\78be0cfb72de43ee1c88a92be53416d7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+109                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+109-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phann\.gradle\caches\transforms-3\78be0cfb72de43ee1c88a92be53416d7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+110                android:value="androidx.startup" />
+110-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phann\.gradle\caches\transforms-3\78be0cfb72de43ee1c88a92be53416d7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+111            <meta-data
+111-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\phann\.gradle\caches\transforms-3\0ec3f24303fe4d50d2fb0fe3cbeb9a84\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+112                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+112-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\phann\.gradle\caches\transforms-3\0ec3f24303fe4d50d2fb0fe3cbeb9a84\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+113                android:value="androidx.startup" />
+113-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\phann\.gradle\caches\transforms-3\0ec3f24303fe4d50d2fb0fe3cbeb9a84\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+114        </provider>
+115    </application>
+116
+117</manifest>

@@ -1,0 +1,25 @@
+#Tue Jan 23 11:47:32 ICT 2024
+path.4=11/classes.dex
+path.3=10/classes.dex
+path.2=0/classes.dex
+path.1=0/classes.dex
+path.7=8/classes.dex
+path.6=4/classes.dex
+path.5=14/classes.dex
+path.0=classes.dex
+base.4=D\:\\ANHTAI\\paddleOCR\\react-native-mlkit-ocr\\example\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.3=D\:\\ANHTAI\\paddleOCR\\react-native-mlkit-ocr\\example\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+base.2=D\:\\ANHTAI\\paddleOCR\\react-native-mlkit-ocr\\example\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.1=D\:\\ANHTAI\\paddleOCR\\react-native-mlkit-ocr\\example\\android\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
+base.0=D\:\\ANHTAI\\paddleOCR\\react-native-mlkit-ocr\\example\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+renamed.7=classes8.dex
+renamed.6=classes7.dex
+base.7=D\:\\ANHTAI\\paddleOCR\\react-native-mlkit-ocr\\example\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+renamed.5=classes6.dex
+base.6=D\:\\ANHTAI\\paddleOCR\\react-native-mlkit-ocr\\example\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+renamed.4=classes5.dex
+base.5=D\:\\ANHTAI\\paddleOCR\\react-native-mlkit-ocr\\example\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
